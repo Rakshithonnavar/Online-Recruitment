@@ -10830,9 +10830,17 @@ header.masthead h1, header.masthead .h1 {
 }
 .showcase .showcase-img {
   min-height: 30rem;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease;
   
   
 }
+.showcase-img:hover {
+  transform: scale(1.1);
+  z-index: 1;
+}
+
 @media (min-width: 768px) {
   .showcase .showcase-text {
     padding: 7rem;

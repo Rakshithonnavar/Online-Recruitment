@@ -9,6 +9,11 @@ function animateText(text, index) {
     }, 100); // Adjust the delay (in milliseconds) between each character
   }
 }
+function toggleImagePop(element) {
+  element.classList.toggle('active');
+}
+
+
 
 
 
