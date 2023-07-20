@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome admin</title>
+    <link href="css/search.css" rel="stylesheet">
+    <script src="js/scripts.js"></script>
+</head>
+<body>
+    <div class="search-section">
+        <h2>Find Elite Talents here!</h2>
+        <form id="search-form">
+          <div class="form-group">
+            <label for="location">Location:</label>
+            <input type="text" id="location" placeholder="Enter location">
+          </div>
+          <div class="form-group">
+            <label for="job-role">Job Role:</label>
+            <select id="job-role">
+              <option >Select job role</option>
+              <option value="developer">Front-End Developer </option>
+              <option value="developer">Backend Developer</option>
+              <option value="developer">Full Stack Developer</option>
+              <option value="developer">System Analyst</option>
+              <option value="Tester">QA Engineer</option>
+              <option value="Devops">DevOps Engineer</option>
+              <option value="Devops">Data Analysts</option>
+              <option value="Manager">Project Manager</option>
+              <!-- Add more job roles as needed -->
+            </select>
+          </div>
+          <button type="submit"><strong>Search🔎</strong></button>
+        </form>
+      </div>
+      
+      <div class="candidates-section">
+        <h4>Candidates List</h4>
+        <ul id="candidates-list"></ul>
+            <li>
+            <div class="candidate-card">
+              <img src="avatar.jpg" alt="Candidate Avatar">
+              <div class="candidate-details">
+                <h3 class="candidate-name">John Doe</h3>
+                <p class="candidate-role">Web Developer</p>
+                <p class="candidate-location">New York, USA</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>   
+    </div>  
+    <div class="marquee">
+      <marquee behavior="scroll" direction="left">
+        Fetched candidates name along with their other details  will be dynamically added here to the list.
+      </marquee>
+    </div>
+    <div class="home" >Return   <a href="index.html"><strong>HOME</strong></a></div> 
+</body>
+</html>
