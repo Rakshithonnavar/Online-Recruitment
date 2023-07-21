@@ -10833,6 +10833,9 @@ header.masthead h1, header.masthead .h1 {
   position: relative;
   overflow: hidden;
   transition: transform 0.3s ease;
+  border-radius: 700px;
+ border-color:#101214;
+
   
   
 }
