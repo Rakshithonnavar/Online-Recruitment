@@ -6,8 +6,7 @@ body {
   font-family: 'Roboto', sans-serif;
   background: url("../assets/img/Candidate_search3.jpeg") no-repeat center center;
   background-size: cover;
-
- 
+  
 }
 
 .container {
@@ -74,11 +73,11 @@ label {
 input[type="text"],
 select {
   width: 34%;
-  padding: 10px;
+  padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
   font-size: 16px;
-  padding-right: 10px;
+  padding-right: 12px;
 
 }
 
@@ -99,7 +98,7 @@ button[type="submit"]:active, button[type="submit"]:focus
 
 .candidates-section {
   margin-top: 40px;
-  padding-left: 2px;
+  padding-left: 6px;
 }
 
 #candidates-list {

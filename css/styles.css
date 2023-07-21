@@ -10978,12 +10978,12 @@ footer.footer {
 }
 
 .details {
-  font-size: 26px;
+  font-size: 22px;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .details h3{
   font-weight: 900;
-  font-size: 37px;
+  font-size: 30px;
   animation: slide-in-animation 1s backwards;
   position: relative;
   left: -100%;
